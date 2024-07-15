@@ -55,7 +55,7 @@ def recognize():
                 user = cursor.fetchone()
                 if user:
                     user_id = user[0]
-                    return jsonify({'redirect_url': f'http://localhost/facial-Recognition/Facial-Recognition/pwd_display_user.php?id={user_id}'})
+                    return jsonify({'redirect_url': f'http://localhost/facial-Recognition/pwd_display_user.php?id={user_id}'})
 
                 else:
                     print(f"No user found with id: {id}")
