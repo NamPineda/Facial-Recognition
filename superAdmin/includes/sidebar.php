@@ -14,7 +14,7 @@
     <div class="collapse navbar-collapse  w-auto  max-height-vh-100" id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link text-white <?= $page == "index.php"? 'active bg-gradient-primary':''; ?>" href="index.php">
+          <a class="nav-link text-white <?= ($page == "index.php" || $page == "ListofallPWD.php" || $page == "ListofallSC.php" || $page == "ListofallSP.php") ? 'active bg-gradient-primary' : ''; ?>" href="index.php" href="ListofallPWD.php" href="ListofallSC.php" href="ListofallSP.php" >
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">dashboard</i>
             </div>
@@ -23,7 +23,7 @@
         </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white <?= $page == "tangos.php"? 'active bg-gradient-primary':''; ?>" href="tangos.php">
+          <a class="nav-link text-white <?= ($page == "tangos.php" || $page == "tangoslistofPWD.php" || $page == "tangoslistofSC.php" || $page == "tangoslistofSP.php")? 'active bg-gradient-primary':''; ?>" href="tangos.php" href="tangoslistofPWD.php" href="tangoslistofSC.php" href="tangoslistofSP.php" >
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">folder_shared</i>
             </div>
@@ -31,7 +31,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white <?= $page == "tanza1.php"? 'active bg-gradient-primary':''; ?>" href="tanza1.php">
+          <a class="nav-link text-white <?= ($page == "tanza1.php" || $page == "tanza1listofPWD.php" || $page == "tanza1listofSC.php" || $page == "tanza1listofSP.php")? 'active bg-gradient-primary':''; ?>" href="tanza1.php" href="tanza1listofPWD.php" href="tanza1listofSC.php" href="tanza1listofSP.php" >
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">folder_shared</i>
             </div>
@@ -39,7 +39,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white <?= $page == "tanza2.php"? 'active bg-gradient-primary':''; ?>" href="tanza2.php">
+          <a class="nav-link text-white <?= ($page == "tanza2.php" || $page == "tanza2listofPWD.php" || $page == "tanza2listofSC.php" || $page == "tanza2listofSP.php")? 'active bg-gradient-primary':''; ?>" href="tanza2.php" href="tanza2listofPWD.php" href="tanza2listofSC.php" href="tanza2listofSP.php" >
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">folder_shared</i>
             </div>

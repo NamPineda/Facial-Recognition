@@ -4,10 +4,10 @@
     <div class="row">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">
-                    <h4> List </h4>
+                <div class="card-header text-center">
+                    <h4> List of all Solo Parent</h4>
                 </div>
-                <div class="card-body">
+                <div class="card-body pt-1">
                     <table class="table table-bordered">
                     <thead>
                         <tr>

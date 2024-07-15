@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+    
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -20,9 +21,12 @@ body {
     max-width: 800px; /* Maximum width to ensure readability */
     box-sizing: border-box;
     animation: fade-in 0.5s ease; /* Fade-in animation */
-    height: 80vh; /* Set container height to 80% of viewport height */
-    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+    height: auto; /* Set container height to 80% of viewport height */
+    position: absolute;
+    top: 1%;
+    overflow-y: visible; /* Enable vertical scrolling if content exceeds height */
     margin: 20px auto; /* Center align with margin */
+    
 }
 
 @keyframes fade-in {
@@ -43,7 +47,7 @@ h2 {
     font-size: 24px;
 }
 
-p {
+p { /* log in information */
     text-align: center;
     margin-bottom: 15px;
     font-size: 16px;
@@ -66,7 +70,7 @@ label {
     display: block;
     font-weight: bold;
     margin-bottom: 8px;
-    color: #2a52be;
+    color: #2a52be; /* letter color */
 }
 
 #barangay,

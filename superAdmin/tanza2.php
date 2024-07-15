@@ -20,7 +20,7 @@
              <hr class="dark horizontal my-0">
             <div class="row">
               <div class="card-footer p-3">
-              <div class="text-end"> <a class="btn bg-gradient-dark mb-0" href="tanza2list.php">View information</a>
+              <div class="text-end"> <a class="btn bg-gradient-dark mb-0" href="tanza2listofSC.php">View information</a>
               </div>
              </div>
             </div>
@@ -45,7 +45,7 @@
            <hr class="dark horizontal my-0">
            <div class="row">
               <div class="card-footer p-3">
-              <div class="text-end"> <a class="btn bg-gradient-primary mb-0" href="tanza1list.php">View information</a>
+              <div class="text-end"> <a class="btn bg-gradient-primary mb-0" href="tanza2listofPWD.php">View information</a>
               </div>
              </div>
             </div>
@@ -68,7 +68,7 @@
            <hr class="dark horizontal my-0">
            <div class="row">
               <div class="card-footer p-3">
-              <div class="text-end"> <a class="btn bg-gradient-success mb-0" href="tanza2list.php">View information</a>
+              <div class="text-end"> <a class="btn bg-gradient-success mb-0" href="tanza2listofSP.php">View information</a>
               </div>
              </div>
             </div>

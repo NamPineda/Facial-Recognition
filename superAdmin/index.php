@@ -17,12 +17,15 @@
             <h4 class="mb-0">281</h4>
            </div>
           </div>
-           <hr class="dark horizontal my-0">
-           <div class="card-footer p-3">
-          <p class="mb-0"><span class="text-success text-sm font-weight-bolder">+55% </span>than last week</p>
+          <hr class="dark horizontal my-0">
+            <div class="row">
+              <div class="card-footer p-3">
+              <div class="text-end"> <a class="btn bg-gradient-dark mb-0" href="ListofallSC.php">View information</a>
+              </div>
+             </div>
+            </div>
            </div>
           </div>
-           </div>
      <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
      <div class="card ">
            <div class="card-header p-3 pt-2">
@@ -36,10 +39,14 @@
            </div>
 
            <hr class="dark horizontal my-0">
-           <div class="card-footer p-3">
-           <p class="mb-0"><span class="text-success text-sm font-weight-bolder">+3% </span>than last month</p>
+           <div class="row">
+              <div class="card-footer p-3">
+              <div class="text-end"> <a class="btn bg-gradient-primary mb-0" href="ListofallPWD.php">View information</a>
+              </div>
+             </div>
+            </div>
            </div>
-           </div>  </div>
+          </div>
 
 
       <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
@@ -54,11 +61,15 @@
            </div>
            </div>
 
-            <hr class="horizontal my-0 dark">
-            <div class="card-footer p-3">
-            <p class="mb-0 "><span class="text-success text-sm font-weight-bolder">+1% </span>than yesterday</p>
+           <hr class="dark horizontal my-0">
+           <div class="row">
+              <div class="card-footer p-3">
+              <div class="text-end"> <a class="btn bg-gradient-success mb-0" href="ListofallSP.php">View information</a>
+              </div>
+             </div>
             </div>
-            </div>
+           </div>
+          </div>
 
         </div>
     </div>
